@@ -1,0 +1,30 @@
+﻿*{margin:0;padding:0;}
+body{font-family: '微软雅黑';font-size: 16px}
+li{list-style: none}
+a{text-decoration: none}
+.absolute{position: absolute;}
+.relative{position: relative;}
+.fixed{position: fixed;}
+.overflow{overflow: hidden}
+.left{float:left}
+.right{float: right}
+.inline_block{display: inline-block;}
+.border_yuan{border-radius: 100%}
+.vertical_top{vertical-align: top}
+.vertical_middle{vertical-align: middle}
+.text_center{text-align: center;}
+.text_right{text-align: right;}
+.text_left{text-align: left;}
+.full{height: 100%;width:100%}
+input{outline: none;border: none;font-family: '微软雅黑';font-size: 0.9em;}
+img{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);border:none;outline: none}
+a{border:none;outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.no_select{-webkit-user-select:none; }
+input,button{outline: none}
+.box{display:-webkit-box;}
+.none{display: none}
+.opacity{opacity: 0}
+.overflow-y{overflow-y:scroll ;-webkit-overflow-scrolling : touch;}
+input[type="button"],input[type="submit"],input[type="reset"],select{
+-webkit-appearance: none;
+}

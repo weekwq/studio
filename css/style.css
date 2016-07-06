@@ -1,0 +1,154 @@
+﻿html,body{min-width: 1000px;font-family: "微软雅黑";color: #888}
+img{vertical-align: top}
+
+.slideBox{ overflow:hidden; position:relative; border:1px solid #ddd;height: 400px;  }
+.slideBox .hd{overflow:hidden; position:absolute; right:5px; bottom:15px; z-index:1;text-align: center; width: 100%;}
+.slideBox .hd ul{   }
+.slideBox .hd ul li{ display:inline-block; margin:0 10px;  width:10px; height:10px; border-radius: 100%;border: 1px solid white;background:transparent; cursor:pointer; }
+.slideBox .hd ul li.on{ background:white; color:#fff; }
+.slideBox .bd{ position:relative; z-index:0;   }
+.slideBox .bd li{ height: 400px; z-index:0;   }
+.arrow{position: absolute;top: 150px;cursor: pointer;}
+.prev{left: 100px;}
+.next{right: 100px;}
+.dian{height:60px;line-height: 55px;color: #888;letter-spacing: 4px;font-weight: bold}
+
+.common-padding{padding:75px 0;}
+.stander{width: 1000px;margin:0 auto;overflow: hidden;}
+.big-wrap{width: 1010px;}
+.wrap{border-bottom: 1px solid #f0f0f0}
+.banner{height: 68px;width: 990px;margin:0 auto;font-size: 14px}
+.banner li{height: 66px;line-height: 66px;border-bottom:2px solid transparent;width:70px;text-align: center;margin:0 10px;cursor: pointer;}
+.banner li.active{border-color:#cc0000;color: #cc0000;}
+.slider-img{width: 100%;}
+.header-title-wrap{padding-bottom: 25px}
+
+.address-wrap{padding:60px 0;}
+.address>div{width: 500px;font-size: 12px}
+.address-icon{width: 40px;margin-right: 10px}
+.title{color: black;font-size: 24px;font-family: '宋体'}
+.eng-title{font-size: 12px;padding-top: 3px}
+.red-line{height:3px;width:50px;background:#cc0000;margin-top:12px }
+.news-fact{margin-top: 25px}
+.news-fact>div{width: 326px;margin-right: 10px;cursor: pointer;}
+.news-fact>div img{width: 100%;}
+.news-title{color: #676767;font-size: 16px;line-height: 40px;overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;}
+.news-content{color:#b8b8b8;width: 70%;height:20px;
+	font-size: 12px}
+.more{color: #cc0000;font-size: 12px;margin-left: 30px}
+.bg-gray{background:#fbfbfb }
+
+
+.achive{margin-top: 25px}
+.achive>div{width: 240px;margin-right: 10px;border:1px solid #ccc;}
+.achive-head{color: white;padding:30px;background: #cc0000;font-size: 30px}
+.achive-content{font-size: 12px;height:140px;padding:20px 30px 0;line-height: 30px}
+.achive-more{padding:10px 30px 50px;cursor: pointer;margin:0;}
+
+
+.sy-info-wrap{width: 800px;height: 40px;line-height: 20px;font-size: 13px;}
+
+
+.works{
+	height: 185px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #ccc
+}
+.outer{cursor: pointer;}
+.works.long{width: 680px;}
+.works.short{width: 310px;}
+.inner-hover{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+	
+}
+
+.hover-name{color: white;font-size: 28px;padding-top: 70px;font-family: '宋体';	padding-right: 30px;}
+.hover-more{color:#cc0000;	padding-right: 30px;}
+
+.teachers{
+	width: 242px;
+	height: 325px;
+	color: white;
+	font-size: 12px;
+	margin-right: 10px
+
+}
+.teachers>.inner-hover{background-color: rgba(204,0,0,0.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7Fcc0000,endColorstr=#7Fcc0000);}
+.teacher-info-wrap{
+	padding:0px 25px;
+}
+
+.teacher-name{font-size: 20px;line-height: 90px}
+.teach-line{line-height: 30px}
+.teacher-info{height: 140px;font-size: 12px;line-height: 30px}
+
+.mask{width: 100%;height: 100%;background: rgba(0,0,0,0.7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);top: 0;}
+
+
+/* 本例子css */
+.picScroll-left{ width:100%;  overflow:hidden; position:relative; }
+.picScroll-left .hd .next{}
+.picScroll-left .bd ul{ overflow:hidden; zoom:1;}
+.picScroll-left .bd ul li{ margin:0 5px; float:left;width: 240px;height: 165px;position: relative;cursor: pointer;   }
+.picScroll-left .bd ul li .pic{ text-align:center; }
+.picScroll-left .bd ul li .pic img{ width:120px; height:90px; display:block;  padding:2px; border:1px solid #ccc; }
+.picScroll-left .bd ul li .pic a:hover img{ border-color:#999;  }
+.picScroll-left .bd ul li .title{ line-height:24px;   }
+.act-arrow{position: absolute;top: 70px;cursor: pointer;height:25px;}
+.act-left{left: 20px;}
+.act-right{right: 20px;}
+.act-content{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 96%;
+	padding: 20px 2%;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+	background: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4));        /* IE 10 */
+
+	background:-moz-linear-gradient(top,rgba(0,0,0,0), rgba(0,0,0,0.4));/*火狐*/ 
+
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(rgba(0,0,0,0)), to(rgba(0,0,0,0.4)));/*谷歌*/ 
+
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.4)));      /* Safari 4-5, Chrome 1-9*/
+
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.4));   /*Safari5.1 Chrome 10+*/
+
+	background: -o-linear-gradient(top, rgba(0,0,0,0)rgba(0,0,0,0.4));  /*Opera 11.10+*/
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#7F000000);
+}
+
+
+.footer{background: #eeeeee}
+.list{padding:60px 0;font-size: 12px;border-bottom: 1px solid #ccc}
+.list li{width: 200px;}
+.list li p{line-height: 30px}
+.footer-end{font-size: 12px;height: 70px;line-height: 70px}
+
+
+.video{width: 1000px;}
+.video-wrap{width: 680px;height: 384px;}
+.video-info-wrap{width: 300px;height: 384px;border-top:1px solid #ccc;border-right:2px solid #ccc;}
+.video-info-wrap>div{height: 127px;border-bottom: 1px solid #ccc;border-left: 1px solid #ccc;padding:0 20px;cursor: pointer;}
+.video-title{height: 50px;line-height: 50px;font-size: 17px}
+.red{color:#cc0000;}
+.video-content{height: 60px;font-size: 12px;line-height: 20px}
+.video-info-wrap>div.video-active{border-left: 1px solid transparent}
+video{height: 100%;width: 100%;background: black}
+
+.gotop{width: 50px;bottom: 90px;right: 30px;cursor: pointer;z-index: 20}
